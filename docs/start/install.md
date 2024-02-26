@@ -68,7 +68,7 @@ pip install pyfury
 ### Golang
 
 ```bash
-go get https://github.com/apache/incubator-fury/go/fury
+go get github.com/apache/incubator-fury/go/fury
 ```
 
 ### JavaScript
@@ -84,7 +84,6 @@ npm install @furyjs/fury
 
 [dependencies]
 fury = { git= "https://github.com/apache/incubator-fury.git", branch = "main" }
-fury_derive = { git= "https://github.com/apache/incubator-fury.git", branch = "main" }
 lazy_static = { version = "1.4.0" }
 
 ```

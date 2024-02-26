@@ -38,14 +38,14 @@ Build fury row format：
 
 ```bash
 pip install pyarrow==14.0.0
-bazel build //src/fury/row:fury_row_format
+bazel build //cpp/fury/row:fury_row_format
 ```
 
 Build fury row format encoder:
 
 ```bash
 pip install pyarrow==14.0.0
-bazel build //src/fury/encoder:fury_encoder
+bazel build //cpp/fury/encoder:fury_encoder
 ```
 
 #### Environment Requirements
@@ -82,3 +82,21 @@ cargo test
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
+
+### Build Fury JavaScript
+
+```bash
+cd javascript
+npm install
+
+# run build
+npm run build
+# run test
+npm run test
+```
+
+#### Environment Requirements
+
+- node 14+
+- npm 8+
+
